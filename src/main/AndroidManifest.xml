@@ -9,13 +9,19 @@
         android:roundIcon="@mipmap/material_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TrueMaterialWorld">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ConstraintActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+        </activity>
+        <activity android:name=".MainActivity">
+
         </activity>
     </application>
-
+    <!-- La línea icon  la utilizamos para cambiar el icono de la aplicación;
+             también se debe cambiar el roundicon-->
 </manifest>

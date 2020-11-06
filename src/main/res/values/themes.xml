@@ -20,4 +20,11 @@
 
     </style>
 
+    <style name="MyTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Lo que no se modifique en este tema es exactamente igual que el parent
+         La barra de arriba en la aplicación, con este método, desaparecerá-->
+
+    </style>
+
 </resources>
